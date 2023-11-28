@@ -24,9 +24,9 @@ def main():
         print("[!] Invalid literal, please enter integer number")
 
     if action == 1:
-        encryption.encryption(file=input("Enter file name: \n"), password=input('Please enter your password:\n'))
+        encryption.encryption(file=input("Enter file name(test.txt): \n"), password=input('Please enter your password:\n'))
     elif action == 2:
-        decryption.decryption(file=input("Enter file name: \n"), password=input('Please enter your password:\n'))
+        decryption.decryption(file=input("Enter file name(test.txt): \n"), password=input('Please enter your password:\n'))
 
 
 if __name__ == '__main__':

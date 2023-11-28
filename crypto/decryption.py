@@ -10,7 +10,7 @@ def decryption(file: str, password: str) -> None:
 
     # call decrypted function
     pyAesCrypt.decryptFile(
-        f"./enc_data/{str(file)}",
+        f"./enc_data/{str(file)}.crp",
         f"./data/{str(os.path.splitext(file)[0])}",
         password,
         buffer_size
