@@ -1,6 +1,6 @@
 import os
 
-from crypto import encryption, decryption
+from crypto import encryption, decryption, steganography
 
 
 def main():
